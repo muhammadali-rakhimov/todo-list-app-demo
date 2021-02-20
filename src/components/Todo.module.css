@@ -1,0 +1,61 @@
+.todoStyle {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  user-select: none;
+}
+
+.todoStyle__block {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  height: 40px;
+  background-color: #fff;
+}
+
+.todoStyle__text {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.todoStyle__insert {
+  display: flex;
+  height: inherit;
+  background-color: #cbc;
+}
+
+.todoStyle__check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: inherit;
+  background-color: #845cb5;
+  color: white;
+}
+
+.todoStyle__trash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: inherit;
+  color: white;
+  background-color: #852e4e;
+}
+
+.todoStyle__check:hover,
+.todoStyle__trash:hover {
+  cursor: pointer;
+}
+
+.todoStyle__check:hover {
+  background-color: #a980b6;
+  cursor: pointer;
+}
+
+.todoStyle__trash:hover {
+  background-color: #a33a4d;
+  cursor: pointer;
+}
