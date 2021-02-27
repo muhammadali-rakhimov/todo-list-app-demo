@@ -1,6 +1,6 @@
 import { Fragment, useState, useEffect } from "react";
 import app from "./App.module.css";
-import Todo from "./components/Todo";
+import Todo from "./Todo";
 
 const App = () => {
   const [value, setValue] = useState("");
